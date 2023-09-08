@@ -236,7 +236,12 @@ const Pricing = () => {
                   </h5>
                   <p>Let's subscribe with us and find the fun.</p>
                 </div>
-                <ButtonOutline onClick={() => { console.log("Button clicked");window.location.href = "https://forms.gle/5ASxyCMTbFRmaX5m6";}}>Select</ButtonOutline>
+                <ButtonOutline onClick={() => { 
+                  console.log("Button clicked"); 
+                  window.location.href = "https://forms.gle/5ASxyCMTbFRmaX5m6";
+                  }}>
+                    Select
+                    </ButtonOutline>
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
