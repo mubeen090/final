@@ -121,10 +121,7 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     $9 <span className="text-black-500">/ mo</span>
                   </p>
-                  <ButtonOutline onClick={() => window.location.href = "https://cosmofeed.com/vp/64fb0070241d10001ea571ea"}>
-                    Select
-                  </ButtonOutline>
-
+                  <ButtonOutline>Select</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -175,10 +172,7 @@ const Pricing = () => {
                     $12 <span className="text-black-500">/ mo</span>
                   </p>
 
-                  <ButtonOutline onClick={() => window.location.href = "https://cosmofeed.com/vp/64fb0070241d10001ea571ea"}>
-                    Select
-                    </ButtonOutline>
-
+                  <ButtonOutline>Select</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
